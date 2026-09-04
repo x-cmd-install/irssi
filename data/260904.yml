@@ -7,7 +7,7 @@ about:
   head: 43f1727
   archived: false
   latestVersion: 1.4.5
-  collectedAt: 2026-09-04T20:03:18Z
+  collectedAt: 2026-09-04T20:36:59Z
 timeline:
   created: 2014-05-30
   lastCommit: 2026-01-27
@@ -85,6 +85,69 @@ total:
   openIssue: 204
   commit: 6931
 ---
+path: /home/runner/.x-repo/github.com/irssi/irssi
+collectedAt: 2026-09-04T20:37:00Z
+loc:
+  C:
+    code: 60187
+    comments: 7696
+    blanks: 14182
+    files: 198
+  CHeader:
+    code: 4583
+    comments: 968
+    blanks: 1509
+    files: 162
+  Perl:
+    code: 2988
+    comments: 223
+    blanks: 376
+    files: 24
+  Meson:
+    code: 2177
+    comments: 148
+    blanks: 153
+    files: 41
+  Autoconf:
+    code: 2063
+    comments: 5
+    blanks: 1300
+    files: 116
+  Html:
+    code: 948
+    comments: 0
+    blanks: 146
+    files: 5
+  Bitbake:
+    code: 239
+    comments: 0
+    blanks: 25
+    files: 1
+  Sh:
+    code: 218
+    comments: 21
+    blanks: 54
+    files: 6
+  Bash:
+    code: 129
+    comments: 1
+    blanks: 10
+    files: 1
+  Markdown:
+    code: 0
+    comments: 51
+    blanks: 23
+    files: 1
+  Text:
+    code: 0
+    comments: 3349
+    blanks: 1117
+    files: 16
+total:
+  code: 73532
+  comments: 12462
+  blanks: 18895
+  files: 571
 ---
 date: "2026-08-24"
 repo:

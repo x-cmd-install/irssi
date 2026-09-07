@@ -5,7 +5,7 @@ about:
   head: 43f1727
   archived: false
   latestVersion: "1.4.5"
-  collectedAt: 2026-09-07T05:10:21Z
+  collectedAt: 2026-09-07T19:13:45Z
 timeline:
   created: 2014-05-30
   lastCommit: 2026-01-27
@@ -17,7 +17,7 @@ popularity:
   release: 28
   contributor: 128
   pullRequest: 963
-  issue: 667
+  issue: 668
 language:
   C: 2500117
   XS: 93936
@@ -33,7 +33,7 @@ recent:
     mergedPR: 0
     openPR: 2
     closedIssue: 0
-    openIssue: 3
+    openIssue: 4
     commit: 0
   last60d:
     since: 2026-07-09
@@ -41,7 +41,7 @@ recent:
     mergedPR: 0
     openPR: 4
     closedIssue: 0
-    openIssue: 3
+    openIssue: 4
     commit: 0
   last90d:
     since: 2026-06-09
@@ -49,7 +49,7 @@ recent:
     mergedPR: 0
     openPR: 9
     closedIssue: 1
-    openIssue: 3
+    openIssue: 4
     commit: 0
   last180d:
     since: 2026-03-11
@@ -57,7 +57,7 @@ recent:
     mergedPR: 0
     openPR: 12
     closedIssue: 1
-    openIssue: 9
+    openIssue: 10
     commit: 0
   last360d:
     since: 2025-09-12
@@ -65,7 +65,7 @@ recent:
     mergedPR: 12
     openPR: 16
     closedIssue: 3
-    openIssue: 15
+    openIssue: 16
     commit: 18
   last720d:
     since: 2024-09-17
@@ -73,18 +73,18 @@ recent:
     mergedPR: 37
     openPR: 21
     closedIssue: 6
-    openIssue: 29
+    openIssue: 30
     commit: 91
 total:
   release: 28
   mergedPR: 769
   openPR: 29
   closedIssue: 463
-  openIssue: 204
+  openIssue: 205
   commit: 6931
 ---
 path: /home/runner/.x-repo/github.com/irssi/irssi
-collectedAt: 2026-09-07T05:10:25Z
+collectedAt: 2026-09-07T19:13:48Z
 loc:
   C:
     code: 60187
@@ -280,7 +280,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:10:27+00:00
+  collectedAt: 2026-09-07T19:13:48+00:00
   platform:
     darwin/arm64:
       name:  null

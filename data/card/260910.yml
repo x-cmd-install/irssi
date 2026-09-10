@@ -7,7 +7,7 @@ about:
   latestVersion: "1.4.5"
   latestRelease: "1.4.5"
   latestPrerelease: "0.8.18-beta2"
-  collectedAt: 2026-09-10T21:42:53Z
+  collectedAt: 2026-09-10T22:10:48Z
 timeline:
   created: 2014-05-30
   lastCommit: 2026-01-27
@@ -88,7 +88,7 @@ total:
   commit: 6931
 ---
 path: /home/runner/.x-repo/github.com/irssi/irssi
-collectedAt: 2026-09-10T21:42:56Z
+collectedAt: 2026-09-10T22:10:50Z
 loc:
   C:
     code: 60187

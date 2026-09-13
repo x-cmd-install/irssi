@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1215688,
       "digest": null,
-      "download_count": 28081,
+      "download_count": 28127,
       "created_at": "2023-10-01T16:49:59Z",
       "updated_at": "2023-10-01T16:50:04Z",
       "browser_download_url": "https://github.com/irssi/irssi/releases/download/1.4.5/irssi-1.4.5.tar.xz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 195,
       "digest": null,
-      "download_count": 3868,
+      "download_count": 3869,
       "created_at": "2023-10-01T20:04:40Z",
       "updated_at": "2023-10-01T20:04:41Z",
       "browser_download_url": "https://github.com/irssi/irssi/releases/download/1.4.5/irssi-1.4.5.tar.xz.asc"

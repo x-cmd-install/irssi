@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 3 | 0 | 3 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 5 | 0 | 4 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 10 | 0 | 4 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 13 | 1 | 10 | 0 |
-| 360d | 2025-09-18 | 0 | 12 | 17 | 3 | 15 | 17 |
-| last720d | 2024-09-23 | 0 | 37 | 22 | 6 | 30 | 91 |
+| 30d | 2026-08-15 | 0 | 0 | 3 | 0 | 3 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 5 | 0 | 4 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 10 | 0 | 4 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 13 | 1 | 10 | 0 |
+| 360d | 2025-09-19 | 0 | 12 | 17 | 3 | 15 | 17 |
+| last720d | 2024-09-24 | 0 | 37 | 22 | 6 | 30 | 91 |
 
 ## Release assets
 
@@ -76,25 +76,6 @@ Lowest-scoring checks:
 | [perl-again.patch](https://github.com/irssi/irssi/releases/download/1.4.5/perl-again.patch) | 2.9 KiB | `other` |
 | [ZZZZZ_DO_NOT_USE_GITHUB_SOURCE_LINK](https://github.com/irssi/irssi/releases/download/1.4.5/ZZZZZ_DO_NOT_USE_GITHUB_SOURCE_LINK) | 34 B | `other` |
 
-## Distribution status
-
-Reported by **220** distros on [repology.org](https://repology.org/project/irssi). **142** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.4.5` | ✅ latest |
-| Debian 14 | `1.4.5` | ✅ latest |
-| Debian 13 | `1.4.5` | ✅ latest |
-| Ubuntu 26.04 LTS | `1.4.5` | ✅ latest |
-| Ubuntu 24.04 LTS | `1.4.5` | ✅ latest |
-| Arch | `1.4.5` | ✅ latest |
-| Homebrew | `1.4.5` | ✅ latest |
-| Fedora rawhide | `1.4.5` | ✅ latest |
-| Nix unstable | `1.4.5` | ✅ latest |
-| Void | `1.4.5` | ✅ latest |
-| Alpine edge | `1.4.5` | ✅ latest |
-| openSUSE Tumbleweed | `1.4.5` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for irssi lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `irssi` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -104,4 +85,4 @@ Install metadata for irssi lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:20:46Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:27:06Z._

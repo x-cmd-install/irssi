@@ -48,22 +48,22 @@ x install irssi
 
 ## 流行度
 
-- **Star**: 3,159 · **Fork**: 392 · **开放 issue**: 672 · **贡献者**: 126
+- **Star**: 3,159 · **Fork**: 392 · **开放 issue**: 673 · **贡献者**: 126
 
 ## 累计统计
 
-- **发布数**: 28 · **已合并 PR**: 769 · **开放 PR**: 29 · **已关闭 issue**: 465 · **开放 issue**: 207 · **提交数**: 6931
+- **发布数**: 28 · **已合并 PR**: 769 · **开放 PR**: 29 · **已关闭 issue**: 465 · **开放 issue**: 208 · **提交数**: 6931
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 1 | 2 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 2 | 2 | 5 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 5 | 2 | 6 | 0 |
-| last180d | 2026-04-25 | 0 | 0 | 10 | 3 | 10 | 0 |
-| 360d | 2025-10-27 | 0 | 11 | 16 | 5 | 16 | 17 |
-| last720d | 2024-11-01 | 0 | 34 | 20 | 7 | 31 | 91 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 1 | 3 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 2 | 2 | 6 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 5 | 2 | 7 | 0 |
+| last180d | 2026-04-26 | 0 | 0 | 10 | 3 | 10 | 0 |
+| 360d | 2025-10-28 | 0 | 11 | 16 | 5 | 17 | 17 |
+| last720d | 2024-11-02 | 0 | 33 | 20 | 7 | 32 | 91 |
 
 ## Release 资产
 
@@ -76,6 +76,25 @@ x install irssi
 | [perl-again.patch](https://github.com/irssi/irssi/releases/download/1.4.5/perl-again.patch) | 2.9 KiB | `other` |
 | [ZZZZZ_DO_NOT_USE_GITHUB_SOURCE_LINK](https://github.com/irssi/irssi/releases/download/1.4.5/ZZZZZ_DO_NOT_USE_GITHUB_SOURCE_LINK) | 34 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/irssi) 上共有 **212** 个发行版报告此项目。**139** 个 ✅ 已是最新上游版本，**65** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.4.5` | ✅ latest |
+| Debian 14 | `1.4.5` | ✅ latest |
+| Debian 13 | `1.4.5` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.4.5` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.4.5` | ✅ latest |
+| Arch | `1.4.5` | ✅ latest |
+| Homebrew | `1.4.5` | ✅ latest |
+| Fedora rawhide | `1.4.5` | ✅ latest |
+| Nix unstable | `1.4.5` | ✅ latest |
+| Void | `1.4.5` | ✅ latest |
+| Alpine edge | `1.4.5` | ✅ latest |
+| openSUSE Tumbleweed | `1.4.5` | ✅ latest |
+
 ## 改进这些数据
 
 irssi 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `irssi` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -85,4 +104,4 @@ irssi 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:12:47Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:16:04Z._

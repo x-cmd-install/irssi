@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,159 · **Forks**: 392 · **Open issues**: 672 · **Contributors**: 126
+- **Stars**: 3,159 · **Forks**: 392 · **Open issues**: 673 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 769 · **Open PRs**: 29 · **Closed issues**: 465 · **Open issues**: 207 · **Commits**: 6931
+- **Releases**: 28 · **Merged PRs**: 769 · **Open PRs**: 29 · **Closed issues**: 465 · **Open issues**: 208 · **Commits**: 6931
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 1 | 2 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 2 | 2 | 5 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 5 | 2 | 6 | 0 |
-| last180d | 2026-04-25 | 0 | 0 | 10 | 3 | 10 | 0 |
-| 360d | 2025-10-27 | 0 | 11 | 16 | 5 | 16 | 17 |
-| last720d | 2024-11-01 | 0 | 34 | 20 | 7 | 31 | 91 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 1 | 3 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 2 | 2 | 6 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 5 | 2 | 7 | 0 |
+| last180d | 2026-04-26 | 0 | 0 | 10 | 3 | 10 | 0 |
+| 360d | 2025-10-28 | 0 | 11 | 16 | 5 | 17 | 17 |
+| last720d | 2024-11-02 | 0 | 33 | 20 | 7 | 32 | 91 |
 
 ## Release assets
 
@@ -76,6 +76,25 @@ Lowest-scoring checks:
 | [perl-again.patch](https://github.com/irssi/irssi/releases/download/1.4.5/perl-again.patch) | 2.9 KiB | `other` |
 | [ZZZZZ_DO_NOT_USE_GITHUB_SOURCE_LINK](https://github.com/irssi/irssi/releases/download/1.4.5/ZZZZZ_DO_NOT_USE_GITHUB_SOURCE_LINK) | 34 B | `other` |
 
+## Distribution status
+
+Reported by **212** distros on [repology.org](https://repology.org/project/irssi). **139** are ✅ on the latest upstream release, **65** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.4.5` | ✅ latest |
+| Debian 14 | `1.4.5` | ✅ latest |
+| Debian 13 | `1.4.5` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.4.5` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.4.5` | ✅ latest |
+| Arch | `1.4.5` | ✅ latest |
+| Homebrew | `1.4.5` | ✅ latest |
+| Fedora rawhide | `1.4.5` | ✅ latest |
+| Nix unstable | `1.4.5` | ✅ latest |
+| Void | `1.4.5` | ✅ latest |
+| Alpine edge | `1.4.5` | ✅ latest |
+| openSUSE Tumbleweed | `1.4.5` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for irssi lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `irssi` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -85,4 +104,4 @@ Install metadata for irssi lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:12:47Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:16:03Z._

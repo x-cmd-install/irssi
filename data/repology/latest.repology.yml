@@ -1,3 +1,85 @@
+- repo: nix_stable_24_05
+  srcname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: null
+  status: newest
+  summary: Terminal based IRC client
+  maintainers:
+    - mail@fabian-affolter.ch
+    - jason@oconal.id.au
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
+  srcname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: null
+  status: newest
+  summary: Terminal based IRC client
+  maintainers:
+    - mail@fabian-affolter.ch
+    - jason@oconal.id.au
+  licenses:
+    - GPL-2.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-5
+  status: newest
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPL
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-6
+  status: newest
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPL
+- repo: nix_stable_25_05
+  srcname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: null
+  status: newest
+  summary: Terminal based IRC client
+  maintainers:
+    - mail@fabian-affolter.ch
+    - jason@oconal.id.au
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: null
+  status: newest
+  summary: Terminal based IRC client
+  maintainers:
+    - mail@fabian-affolter.ch
+    - jason@oconal.id.au
+  licenses:
+    - GPL-2.0-or-later
+- repo: pkgsrc_current
+  srcname: chat/irssi
+  binname: irssi
+  visiblename: chat/irssi
+  version: 1.4.5
+  origversion: 1.4.5nb8
+  status: newest
+  summary: Secure and modular IRC client with text mode user interface
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - chat
 - repo: pld
   srcname: irssi
   visiblename: irssi
@@ -35,17 +117,6 @@
     - unit193@debian.org
   categories:
     - net
-- repo: openindiana
-  subrepo: hipster
-  srcname: irssi
-  binname: network/chat/irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: null
-  status: newest
-  summary: irssi - a terminal based IRC client
-  categories:
-    - Applications/Internet
 - repo: raspbian_stable
   subrepo: main
   srcname: irssi
@@ -62,24 +133,6 @@
     - unit193@debian.org
   categories:
     - net
-- repo: slackware_15_0
-  subrepo: patches
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: raspbian_testing
   subrepo: main
   srcname: irssi
@@ -96,52 +149,6 @@
     - unit193@debian.org
   categories:
     - net
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: irssi
-  visiblename: irssi
-  version: 1.2.3
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: almalinux_9
-  subrepo: AppStream
-  srcname: irssi
-  binnames:
-    - irssi-debugsource
-    - irssi-debuginfo
-    - irssi-devel
-    - irssi
-  visiblename: irssi
-  version: 1.2.2
-  origversion: 1.2.2-12.el9
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
 - repo: adelie_current
   subrepo: user
   srcname: irssi
@@ -207,710 +214,713 @@
     - sheila@vulpine.house
   licenses:
     - GPL-2.0+ AND ISC
-- repo: alpine_3_17
-  subrepo: main
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.4
-  origversion: 1.4.4-r0
-  status: outdated
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_17
-  subrepo: main
-  srcname: irssi
-  binname: irssi-perl
-  visiblename: irssi-perl
-  version: 1.4.4
-  origversion: 1.4.4-r0
-  status: outdated
-  summary: Irssi perl support and scripts
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_17
-  subrepo: main
-  srcname: irssi
-  binname: irssi-proxy
-  visiblename: irssi-proxy
-  version: 1.4.4
-  origversion: 1.4.4-r0
-  status: outdated
-  summary: Irssi module for enabling bouncer-like functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_17
-  subrepo: main
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.4
-  origversion: 1.4.4-r0
-  status: outdated
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_17
-  subrepo: main
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.4
-  origversion: 1.4.4-r0
-  status: outdated
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_17
-  subrepo: main
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.4
-  origversion: 1.4.4-r0
-  status: outdated
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_18
-  subrepo: community
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.4
-  origversion: 1.4.4-r2
-  status: outdated
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_18
-  subrepo: community
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.4
-  origversion: 1.4.4-r2
-  status: outdated
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_18
-  subrepo: community
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.4
-  origversion: 1.4.4-r2
-  status: outdated
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_18
-  subrepo: community
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.4
-  origversion: 1.4.4-r2
-  status: outdated
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_18
-  subrepo: community
-  srcname: irssi
-  binname: irssi-perl
-  visiblename: irssi-perl
-  version: 1.4.4
-  origversion: 1.4.4-r2
-  status: outdated
-  summary: Irssi perl support and scripts
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_18
-  subrepo: community
-  srcname: irssi
-  binname: irssi-proxy
-  visiblename: irssi-proxy
-  version: 1.4.4
-  origversion: 1.4.4-r2
-  status: outdated
-  summary: Irssi module for enabling bouncer-like functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_19
-  subrepo: community
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-r1
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_19
-  subrepo: community
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.5
-  origversion: 1.4.5-r1
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_19
-  subrepo: community
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.5
-  origversion: 1.4.5-r1
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_19
-  subrepo: community
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.5
-  origversion: 1.4.5-r1
-  status: newest
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_19
-  subrepo: community
-  srcname: irssi
-  binname: irssi-perl
-  visiblename: irssi-perl
-  version: 1.4.5
-  origversion: 1.4.5-r1
-  status: newest
-  summary: Irssi perl support and scripts
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_19
-  subrepo: community
-  srcname: irssi
-  binname: irssi-proxy
-  visiblename: irssi-proxy
-  version: 1.4.5
-  origversion: 1.4.5-r1
-  status: newest
-  summary: Irssi module for enabling bouncer-like functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_20
-  subrepo: community
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-r2
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_20
-  subrepo: community
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.5
-  origversion: 1.4.5-r2
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_20
-  subrepo: community
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.5
-  origversion: 1.4.5-r2
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_20
-  subrepo: community
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.5
-  origversion: 1.4.5-r2
-  status: newest
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_20
-  subrepo: community
-  srcname: irssi
-  binname: irssi-perl
-  visiblename: irssi-perl
-  version: 1.4.5
-  origversion: 1.4.5-r2
-  status: newest
-  summary: Irssi perl support and scripts
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_20
-  subrepo: community
-  srcname: irssi
-  binname: irssi-proxy
-  visiblename: irssi-proxy
-  version: 1.4.5
-  origversion: 1.4.5-r2
-  status: newest
-  summary: Irssi module for enabling bouncer-like functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_21
-  subrepo: community
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-r3
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_21
-  subrepo: community
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.5
-  origversion: 1.4.5-r3
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_21
-  subrepo: community
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.5
-  origversion: 1.4.5-r3
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_21
-  subrepo: community
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.5
-  origversion: 1.4.5-r3
-  status: newest
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_21
-  subrepo: community
-  srcname: irssi
-  binname: irssi-perl
-  visiblename: irssi-perl
-  version: 1.4.5
-  origversion: 1.4.5-r3
-  status: newest
-  summary: Irssi perl support and scripts
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_21
-  subrepo: community
-  srcname: irssi
-  binname: irssi-proxy
-  visiblename: irssi-proxy
-  version: 1.4.5
-  origversion: 1.4.5-r3
-  status: newest
-  summary: Irssi module for enabling bouncer-like functionality
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_22
-  subrepo: community
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-r4
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_22
-  subrepo: community
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.5
-  origversion: 1.4.5-r4
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_22
-  subrepo: community
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.5
-  origversion: 1.4.5-r4
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_22
-  subrepo: community
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.5
-  origversion: 1.4.5-r4
-  status: newest
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_22
-  subrepo: community
-  srcname: irssi
-  binname: irssi-perl
-  visiblename: irssi-perl
-  version: 1.4.5
-  origversion: 1.4.5-r4
-  status: newest
-  summary: Irssi perl support and scripts
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_22
-  subrepo: community
-  srcname: irssi
-  binname: irssi-proxy
-  visiblename: irssi-proxy
-  version: 1.4.5
-  origversion: 1.4.5-r4
-  status: newest
-  summary: Irssi module for enabling bouncer-like functionality
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_23
-  subrepo: community
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-r6
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_23
-  subrepo: community
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.5
-  origversion: 1.4.5-r6
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_23
-  subrepo: community
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.5
-  origversion: 1.4.5-r6
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_23
-  subrepo: community
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.5
-  origversion: 1.4.5-r6
-  status: newest
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_23
-  subrepo: community
-  srcname: irssi
-  binname: irssi-perl
-  visiblename: irssi-perl
-  version: 1.4.5
-  origversion: 1.4.5-r6
-  status: newest
-  summary: Irssi perl support and scripts
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_23
-  subrepo: community
-  srcname: irssi
-  binname: irssi-proxy
-  visiblename: irssi-proxy
-  version: 1.4.5
-  origversion: 1.4.5-r6
-  status: newest
-  summary: Irssi module for enabling bouncer-like functionality
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_24
-  subrepo: community
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-r7
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_24
-  subrepo: community
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.5
-  origversion: 1.4.5-r7
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_24
-  subrepo: community
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.5
-  origversion: 1.4.5-r7
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_24
-  subrepo: community
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.5
-  origversion: 1.4.5-r7
-  status: newest
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: irssi
-  visiblename: irssi
-  version: 1.2.3
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-- repo: alpine_3_24
-  subrepo: community
-  srcname: irssi
-  binname: irssi-perl
-  visiblename: irssi-perl
-  version: 1.4.5
-  origversion: 1.4.5-r7
-  status: newest
-  summary: Irssi perl support and scripts
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_3_24
-  subrepo: community
-  srcname: irssi
-  binname: irssi-proxy
-  visiblename: irssi-proxy
-  version: 1.4.5
-  origversion: 1.4.5-r7
-  status: newest
-  summary: Irssi module for enabling bouncer-like functionality
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_edge
-  subrepo: community
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-r8
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_edge
-  subrepo: community
-  srcname: irssi
-  binname: irssi-dev
-  visiblename: irssi-dev
-  version: 1.4.5
-  origversion: 1.4.5-r8
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (development files)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_edge
-  subrepo: community
-  srcname: irssi
-  binname: irssi-doc
-  visiblename: irssi-doc
-  version: 1.4.5
-  origversion: 1.4.5-r8
-  status: newest
-  summary: Modular textUI IRC client with IPv6 support (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: alpine_edge
-  subrepo: community
-  srcname: irssi
-  binname: irssi-otr
-  visiblename: irssi-otr
-  version: 1.4.5
-  origversion: 1.4.5-r8
-  status: newest
-  summary: Irssi module for enabling OTR functionality
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: centos_stream_9
+- repo: almalinux_9
   subrepo: AppStream
   srcname: irssi
   binnames:
-    - irssi
-    - irssi-devel
-    - irssi-debuginfo
     - irssi-debugsource
+    - irssi-debuginfo
+    - irssi-devel
+    - irssi
   visiblename: irssi
   version: 1.2.2
   origversion: 1.2.2-12.el9
   status: outdated
   summary: Modular text mode IRC client with Perl scripting
   maintainers:
-    - builder@centos.org
+    - packager@almalinux.org
   licenses:
     - GPLv2+
   categories:
     - Unspecified
+- repo: alpine_3_17
+  subrepo: main
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.4
+  origversion: 1.4.4-r0
+  status: outdated
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_17
+  subrepo: main
+  srcname: irssi
+  binname: irssi-perl
+  visiblename: irssi-perl
+  version: 1.4.4
+  origversion: 1.4.4-r0
+  status: outdated
+  summary: Irssi perl support and scripts
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_17
+  subrepo: main
+  srcname: irssi
+  binname: irssi-proxy
+  visiblename: irssi-proxy
+  version: 1.4.4
+  origversion: 1.4.4-r0
+  status: outdated
+  summary: Irssi module for enabling bouncer-like functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_17
+  subrepo: main
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.4
+  origversion: 1.4.4-r0
+  status: outdated
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_17
+  subrepo: main
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.4
+  origversion: 1.4.4-r0
+  status: outdated
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_17
+  subrepo: main
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.4
+  origversion: 1.4.4-r0
+  status: outdated
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_18
+  subrepo: community
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.4
+  origversion: 1.4.4-r2
+  status: outdated
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_18
+  subrepo: community
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.4
+  origversion: 1.4.4-r2
+  status: outdated
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_18
+  subrepo: community
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.4
+  origversion: 1.4.4-r2
+  status: outdated
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_18
+  subrepo: community
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.4
+  origversion: 1.4.4-r2
+  status: outdated
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_18
+  subrepo: community
+  srcname: irssi
+  binname: irssi-perl
+  visiblename: irssi-perl
+  version: 1.4.4
+  origversion: 1.4.4-r2
+  status: outdated
+  summary: Irssi perl support and scripts
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_18
+  subrepo: community
+  srcname: irssi
+  binname: irssi-proxy
+  visiblename: irssi-proxy
+  version: 1.4.4
+  origversion: 1.4.4-r2
+  status: outdated
+  summary: Irssi module for enabling bouncer-like functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_19
+  subrepo: community
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-r1
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_19
+  subrepo: community
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.5
+  origversion: 1.4.5-r1
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_19
+  subrepo: community
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.5
+  origversion: 1.4.5-r1
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_19
+  subrepo: community
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.5
+  origversion: 1.4.5-r1
+  status: newest
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_19
+  subrepo: community
+  srcname: irssi
+  binname: irssi-perl
+  visiblename: irssi-perl
+  version: 1.4.5
+  origversion: 1.4.5-r1
+  status: newest
+  summary: Irssi perl support and scripts
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_19
+  subrepo: community
+  srcname: irssi
+  binname: irssi-proxy
+  visiblename: irssi-proxy
+  version: 1.4.5
+  origversion: 1.4.5-r1
+  status: newest
+  summary: Irssi module for enabling bouncer-like functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_20
+  subrepo: community
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-r2
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_20
+  subrepo: community
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.5
+  origversion: 1.4.5-r2
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_20
+  subrepo: community
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.5
+  origversion: 1.4.5-r2
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_20
+  subrepo: community
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.5
+  origversion: 1.4.5-r2
+  status: newest
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_20
+  subrepo: community
+  srcname: irssi
+  binname: irssi-perl
+  visiblename: irssi-perl
+  version: 1.4.5
+  origversion: 1.4.5-r2
+  status: newest
+  summary: Irssi perl support and scripts
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_20
+  subrepo: community
+  srcname: irssi
+  binname: irssi-proxy
+  visiblename: irssi-proxy
+  version: 1.4.5
+  origversion: 1.4.5-r2
+  status: newest
+  summary: Irssi module for enabling bouncer-like functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_21
+  subrepo: community
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-r3
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_21
+  subrepo: community
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.5
+  origversion: 1.4.5-r3
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_21
+  subrepo: community
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.5
+  origversion: 1.4.5-r3
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_21
+  subrepo: community
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.5
+  origversion: 1.4.5-r3
+  status: newest
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_21
+  subrepo: community
+  srcname: irssi
+  binname: irssi-perl
+  visiblename: irssi-perl
+  version: 1.4.5
+  origversion: 1.4.5-r3
+  status: newest
+  summary: Irssi perl support and scripts
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_21
+  subrepo: community
+  srcname: irssi
+  binname: irssi-proxy
+  visiblename: irssi-proxy
+  version: 1.4.5
+  origversion: 1.4.5-r3
+  status: newest
+  summary: Irssi module for enabling bouncer-like functionality
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_22
+  subrepo: community
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-r4
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_22
+  subrepo: community
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.5
+  origversion: 1.4.5-r4
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_22
+  subrepo: community
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.5
+  origversion: 1.4.5-r4
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_22
+  subrepo: community
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.5
+  origversion: 1.4.5-r4
+  status: newest
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_22
+  subrepo: community
+  srcname: irssi
+  binname: irssi-perl
+  visiblename: irssi-perl
+  version: 1.4.5
+  origversion: 1.4.5-r4
+  status: newest
+  summary: Irssi perl support and scripts
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_22
+  subrepo: community
+  srcname: irssi
+  binname: irssi-proxy
+  visiblename: irssi-proxy
+  version: 1.4.5
+  origversion: 1.4.5-r4
+  status: newest
+  summary: Irssi module for enabling bouncer-like functionality
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_23
+  subrepo: community
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-r6
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_23
+  subrepo: community
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.5
+  origversion: 1.4.5-r6
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_23
+  subrepo: community
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.5
+  origversion: 1.4.5-r6
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_23
+  subrepo: community
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.5
+  origversion: 1.4.5-r6
+  status: newest
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_23
+  subrepo: community
+  srcname: irssi
+  binname: irssi-perl
+  visiblename: irssi-perl
+  version: 1.4.5
+  origversion: 1.4.5-r6
+  status: newest
+  summary: Irssi perl support and scripts
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_23
+  subrepo: community
+  srcname: irssi
+  binname: irssi-proxy
+  visiblename: irssi-proxy
+  version: 1.4.5
+  origversion: 1.4.5-r6
+  status: newest
+  summary: Irssi module for enabling bouncer-like functionality
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_24
+  subrepo: community
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-r7
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_24
+  subrepo: community
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.5
+  origversion: 1.4.5-r7
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: exherbo
+  subrepo: arbor
+  srcname: net-irc/irssi
+  visiblename: net-irc/irssi
+  version: scm
+  origversion: null
+  status: rolling
+  summary: Irssi is a terminal based IRC client for UNIX systems
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - net-irc
+- repo: alpine_3_24
+  subrepo: community
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.5
+  origversion: 1.4.5-r7
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_24
+  subrepo: community
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.5
+  origversion: 1.4.5-r7
+  status: newest
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_24
+  subrepo: community
+  srcname: irssi
+  binname: irssi-perl
+  visiblename: irssi-perl
+  version: 1.4.5
+  origversion: 1.4.5-r7
+  status: newest
+  summary: Irssi perl support and scripts
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_3_24
+  subrepo: community
+  srcname: irssi
+  binname: irssi-proxy
+  visiblename: irssi-proxy
+  version: 1.4.5
+  origversion: 1.4.5-r7
+  status: newest
+  summary: Irssi module for enabling bouncer-like functionality
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_edge
+  subrepo: community
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-r8
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_edge
+  subrepo: community
+  srcname: irssi
+  binname: irssi-dev
+  visiblename: irssi-dev
+  version: 1.4.5
+  origversion: 1.4.5-r8
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (development files)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_edge
+  subrepo: community
+  srcname: irssi
+  binname: irssi-doc
+  visiblename: irssi-doc
+  version: 1.4.5
+  origversion: 1.4.5-r8
+  status: newest
+  summary: Modular textUI IRC client with IPv6 support (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: alpine_edge
+  subrepo: community
+  srcname: irssi
+  binname: irssi-otr
+  visiblename: irssi-otr
+  version: 1.4.5
+  origversion: 1.4.5-r8
+  status: newest
+  summary: Irssi module for enabling OTR functionality
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - GPL-2.0-or-later WITH OpenSSL-Exception
 - repo: alpine_edge
   subrepo: community
   srcname: irssi
@@ -1025,18 +1035,25 @@
   summary: Modular text mode IRC client with Perl scripting
   licenses:
     - GPL
-- repo: nix_stable_24_11
+- repo: centos_stream_9
+  subrepo: AppStream
   srcname: irssi
+  binnames:
+    - irssi
+    - irssi-devel
+    - irssi-debuginfo
+    - irssi-debugsource
   visiblename: irssi
-  version: 1.4.5
-  origversion: null
-  status: newest
-  summary: Terminal based IRC client
+  version: 1.2.2
+  origversion: 1.2.2-12.el9
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
   maintainers:
-    - mail@fabian-affolter.ch
-    - jason@oconal.id.au
+    - builder@centos.org
   licenses:
-    - GPL-2.0-or-later
+    - GPLv2+
+  categories:
+    - Unspecified
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: irssi
@@ -1311,18 +1328,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - net-irc
-- repo: exherbo
-  subrepo: arbor
-  srcname: net-irc/irssi
-  visiblename: net-irc/irssi
-  version: scm
-  origversion: null
-  status: rolling
-  summary: Irssi is a terminal based IRC client for UNIX systems
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - net-irc
 - repo: fedora_39
   subrepo: release
   srcname: irssi
@@ -1402,18 +1407,6 @@
     - gpl-2.0-or-later AND gpl-2.0-only AND gfdl-1.1-or-later AND licenseref-fedora-public-domain AND hpnd-markus-kuhn
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: null
-  status: newest
-  summary: Terminal based IRC client
-  maintainers:
-    - mail@fabian-affolter.ch
-    - jason@oconal.id.au
-  licenses:
-    - GPL-2.0-or-later
 - repo: fedora_44
   subrepo: release
   srcname: irssi
@@ -1516,6 +1509,17 @@
   origversion: null
   status: newest
   summary: Extensible terminal-based IRC client
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-5
+  status: newest
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - spdx:GPL-2.0-or-later
 - repo: haikuports_master
   srcname: net-irc/irssi
   visiblename: net-irc/irssi
@@ -1547,18 +1551,6 @@
     - unit193@debian.org
   categories:
     - net
-- repo: nix_stable_25_11
-  srcname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: null
-  status: newest
-  summary: Terminal based IRC client
-  maintainers:
-    - mail@fabian-affolter.ch
-    - jason@oconal.id.au
-  licenses:
-    - GPL-2.0-or-later
 - repo: liguros_stable
   srcname: net-irc/irssi
   visiblename: net-irc/irssi
@@ -1591,15 +1583,6 @@
     - GPL-2
   categories:
     - net-irc
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
 - repo: liguros_develop
   srcname: net-irc/irssi
   visiblename: net-irc/irssi
@@ -1616,6 +1599,15 @@
     - GPL-2
   categories:
     - net-irc
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: irssi
+  visiblename: irssi
+  version: 1.2.3
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
 - repo: liguros_develop
   srcname: net-irc/irssi
   visiblename: net-irc/irssi
@@ -1693,51 +1685,6 @@
   summary: Modular text mode IRC client with Perl scripting
   licenses:
     - GPL
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-5
-  status: newest
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPL
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-6
-  status: newest
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPL
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-5
-  status: newest
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - spdx:GPL-2.0-or-later
-- repo: nix_stable_24_05
-  srcname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: null
-  status: newest
-  summary: Terminal based IRC client
-  maintainers:
-    - mail@fabian-affolter.ch
-    - jason@oconal.id.au
-  licenses:
-    - GPL-2.0-or-later
 - repo: nix_stable_26_05
   srcname: irssi
   visiblename: irssi
@@ -1860,6 +1807,17 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: openindiana
+  subrepo: hipster
+  srcname: irssi
+  binname: network/chat/irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: null
+  status: newest
+  summary: irssi - a terminal based IRC client
+  categories:
+    - Applications/Internet
 - repo: openmamba
   subrepo: base
   srcname: irssi
@@ -1877,18 +1835,15 @@
     - GPL
   categories:
     - Applications/Networking
-- repo: pkgsrc_current
-  srcname: chat/irssi
+- repo: slackwarearm_15_0
+  subrepo: patches
   binname: irssi
-  visiblename: chat/irssi
-  version: 1.4.5
-  origversion: 1.4.5nb8
-  status: newest
-  summary: Secure and modular IRC client with text mode user interface
+  visiblename: irssi
+  version: 1.4.4
+  origversion: null
+  status: outdated
   maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - chat
+    - volkerdi@slackware.com
 - repo: openpkg_current
   srcname: irssi
   visiblename: irssi
@@ -2008,7 +1963,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: irssi
   binnames:
     - irssi
@@ -2024,7 +1979,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: irssi
   binnames:
     - irssi
@@ -2128,6 +2083,51 @@
   version: 1.2.3
   origversion: null
   status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_15_0
+  subrepo: patches
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: irssi
+  visiblename: irssi
+  version: 1.2.3
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: null
+  status: newest
   maintainers:
     - volkerdi@slackware.com
 - repo: solus
@@ -2423,6 +2423,32 @@
   summary: text-mode IRC client
   licenses:
     - GNU General Public License, version 2.0 or later
+- repo: centos_6
+  subrepo: os
+  srcname: irssi
+  visiblename: irssi
+  version: 0.8.15
+  origversion: 0.8.15-5.el6
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
+- repo: centos_7
+  subrepo: os
+  srcname: irssi
+  visiblename: irssi
+  version: 0.8.15
+  origversion: 0.8.15-16.el7
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
   srcname: irssi
@@ -2501,32 +2527,6 @@
   visiblename: irssi
   version: 0.8.15
   origversion: 0.8.15-16.amzn2
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: centos_6
-  subrepo: os
-  srcname: irssi
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-5.el6
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: centos_7
-  subrepo: os
-  srcname: irssi
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-16.el7
   status: outdated
   summary: Modular text mode IRC client with Perl scripting
   licenses:
@@ -2632,26 +2632,6 @@
     - GNU General Public License (GPL)
   vulnerable: true
 - repo: mageia_9
-  subrepo: core/release
-  srcname: irssi
-  binnames:
-    - irssi
-    - irssi-devel
-    - irssi-perl
-    - irssi-otr
-    - irssi-debuginfo
-    - irssi-debugsource
-  visiblename: irssi
-  version: 1.4.3
-  origversion: 1.4.3-1.mga9
-  status: outdated
-  summary: IRC client
-  licenses:
-    - GPLv2+
-  categories:
-    - Networking/IRC
-  vulnerable: true
-- repo: mageia_9
   subrepo: core/updates
   srcname: irssi
   binnames:
@@ -2664,6 +2644,26 @@
   visiblename: irssi
   version: 1.4.3
   origversion: 1.4.3-1.1.mga9
+  status: outdated
+  summary: IRC client
+  licenses:
+    - GPLv2+
+  categories:
+    - Networking/IRC
+  vulnerable: true
+- repo: mageia_9
+  subrepo: core/release
+  srcname: irssi
+  binnames:
+    - irssi
+    - irssi-devel
+    - irssi-perl
+    - irssi-otr
+    - irssi-debuginfo
+    - irssi-debugsource
+  visiblename: irssi
+  version: 1.4.3
+  origversion: 1.4.3-1.mga9
   status: outdated
   summary: IRC client
   licenses:
@@ -2819,21 +2819,6 @@
     - Networking/IRC
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty-updates/main
-  srcname: irssi
-  binnames:
-    - irssi
-    - irssi-dev
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-5ubuntu3.6
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - net
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty/main
   srcname: irssi
   binnames:
@@ -2848,16 +2833,15 @@
   categories:
     - net
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/main
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/main
   srcname: irssi
   binnames:
     - irssi
-    - irssi-dbg
     - irssi-dev
   visiblename: irssi
-  version: 0.8.19
-  origversion: 0.8.19-1ubuntu1
+  version: 0.8.15
+  origversion: 0.8.15-5ubuntu3.6
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2874,6 +2858,22 @@
   visiblename: irssi
   version: 0.8.19
   origversion: 0.8.19-1ubuntu1.9
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - net
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/main
+  srcname: irssi
+  binnames:
+    - irssi
+    - irssi-dbg
+    - irssi-dev
+  visiblename: irssi
+  version: 0.8.19
+  origversion: 0.8.19-1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

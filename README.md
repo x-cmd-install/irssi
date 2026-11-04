@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,165 · **Forks**: 392 · **Open issues**: 673 · **Contributors**: 126
+- **Stars**: 3,166 · **Forks**: 392 · **Open issues**: 674 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 769 · **Open PRs**: 29 · **Closed issues**: 465 · **Open issues**: 208 · **Commits**: 6931
+- **Releases**: 28 · **Merged PRs**: 769 · **Open PRs**: 29 · **Closed issues**: 466 · **Open issues**: 208 · **Commits**: 6931
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-09-04 | 0 | 0 | 1 | 2 | 4 | 0 |
-| 90d | 2026-08-05 | 0 | 0 | 3 | 2 | 7 | 0 |
-| last180d | 2026-05-07 | 0 | 0 | 9 | 3 | 10 | 0 |
-| 360d | 2025-11-08 | 0 | 11 | 16 | 5 | 17 | 17 |
-| last720d | 2024-11-13 | 0 | 33 | 20 | 6 | 32 | 91 |
+| 30d | 2026-10-05 | 0 | 0 | 0 | 1 | 2 | 0 |
+| last60d | 2026-09-05 | 0 | 0 | 1 | 3 | 4 | 0 |
+| 90d | 2026-08-06 | 0 | 0 | 3 | 3 | 7 | 0 |
+| last180d | 2026-05-08 | 0 | 0 | 9 | 4 | 10 | 0 |
+| 360d | 2025-11-09 | 0 | 11 | 16 | 6 | 17 | 17 |
+| last720d | 2024-11-14 | 0 | 33 | 20 | 7 | 32 | 91 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for irssi lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:11:01Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:45:22Z._

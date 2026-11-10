@@ -1,22 +1,3 @@
-- repo: almalinux_9
-  subrepo: AppStream
-  srcname: irssi
-  binnames:
-    - irssi-debugsource
-    - irssi-debuginfo
-    - irssi-devel
-    - irssi
-  visiblename: irssi
-  version: 1.2.2
-  origversion: 1.2.2-12.el9
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
 - repo: adelie_current
   subrepo: user
   srcname: irssi
@@ -82,6 +63,25 @@
     - sheila@vulpine.house
   licenses:
     - GPL-2.0+ AND ISC
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: irssi
+  binnames:
+    - irssi-debugsource
+    - irssi-debuginfo
+    - irssi-devel
+    - irssi
+  visiblename: irssi
+  version: 1.2.2
+  origversion: 1.2.2-12.el9
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
 - repo: alpine_3_17
   subrepo: main
   srcname: irssi
@@ -173,6 +173,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later WITH OpenSSL-Exception
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: irssi
+  binname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-7
+  status: newest
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPL
 - repo: alpine_3_18
   subrepo: community
   srcname: irssi
@@ -498,18 +509,6 @@
     - cielesti@protonmail.com
   licenses:
     - GPL-2.0-or-later WITH OpenSSL-Exception
-- repo: nix_stable_24_11
-  srcname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: null
-  status: newest
-  summary: Terminal based IRC client
-  maintainers:
-    - mail@fabian-affolter.ch
-    - jason@oconal.id.au
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_3_22
   subrepo: community
   srcname: irssi
@@ -861,17 +860,6 @@
   summary: Modular text mode IRC client with Perl scripting
   licenses:
     - GPL
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: irssi
-  binname: irssi
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-7
-  status: newest
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPL
 - repo: aur
   srcname: irssi-git
   binname: irssi-git
@@ -906,22 +894,6 @@
   summary: Modular text mode IRC client with Perl scripting
   licenses:
     - GPL
-- repo: kali_rolling
-  subrepo: main
-  srcname: irssi
-  binnames:
-    - irssi
-    - irssi-plugin-otr
-    - irssi-dev
-  visiblename: irssi
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: newest
-  maintainers:
-    - rhonda@debian.org
-    - unit193@debian.org
-  categories:
-    - net
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: irssi
@@ -1374,6 +1346,21 @@
     - GPL-2
   categories:
     - net-irc
+- repo: pardus_21
+  subrepo: main
+  srcname: irssi
+  binnames:
+    - irssi
+    - irssi-plugin-otr
+    - irssi-dev
+  visiblename: irssi
+  version: 1.2.3
+  origversion: 1.2.3-1
+  status: outdated
+  maintainers:
+    - rhonda@debian.org
+  categories:
+    - net
 - repo: gentoo
   srcname: net-irc/irssi
   visiblename: net-irc/irssi
@@ -1423,6 +1410,22 @@
   origversion: null
   status: newest
   summary: Modular IRC client
+- repo: kali_rolling
+  subrepo: main
+  srcname: irssi
+  binnames:
+    - irssi
+    - irssi-plugin-otr
+    - irssi-dev
+  visiblename: irssi
+  version: 1.4.5
+  origversion: 1.4.5-1
+  status: newest
+  maintainers:
+    - rhonda@debian.org
+    - unit193@debian.org
+  categories:
+    - net
 - repo: liguros_stable
   srcname: net-irc/irssi
   visiblename: net-irc/irssi
@@ -1576,12 +1579,24 @@
   binname: irssi
   visiblename: irssi
   version: 1.4.5
-  origversion: 1.4.5-5
+  origversion: 1.4.5-6
   status: newest
   summary: Modular text mode IRC client with Perl scripting
   licenses:
     - spdx:GPL-2.0-or-later
 - repo: nix_stable_24_05
+  srcname: irssi
+  visiblename: irssi
+  version: 1.4.5
+  origversion: null
+  status: newest
+  summary: Terminal based IRC client
+  maintainers:
+    - mail@fabian-affolter.ch
+    - jason@oconal.id.au
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
   srcname: irssi
   visiblename: irssi
   version: 1.4.5
@@ -1860,21 +1875,6 @@
   summary: Modular text mode IRC client with Perl scripting
   licenses:
     - GPL
-- repo: pardus_21
-  subrepo: main
-  srcname: irssi
-  binnames:
-    - irssi
-    - irssi-plugin-otr
-    - irssi-dev
-  visiblename: irssi
-  version: 1.2.3
-  origversion: 1.2.3-1
-  status: outdated
-  maintainers:
-    - rhonda@debian.org
-  categories:
-    - net
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: irssi
@@ -2451,113 +2451,50 @@
   summary: text-mode IRC client
   licenses:
     - GNU General Public License, version 2.0 or later
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: irssi
-  visiblename: irssi
-  version: 1.1.1
-  origversion: 1.1.1-3.el8
+- repo: gobolinux
+  srcname: Irssi
+  visiblename: Irssi
+  version: 1.2.1
+  origversion: null
   status: outdated
   summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GNU General Public License (GPL)
+  vulnerable: true
+- repo: mageia_9
+  subrepo: core/updates
+  srcname: irssi
+  binnames:
+    - irssi
+    - irssi-devel
+    - irssi-perl
+    - irssi-otr
+    - irssi-debuginfo
+    - irssi-debugsource
+  visiblename: irssi
+  version: 1.4.3
+  origversion: 1.4.3-1.1.mga9
+  status: outdated
+  summary: IRC client
+  licenses:
+    - GPLv2+
+  categories:
+    - Networking/IRC
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: irssi
+  binnames:
+    - irssi
+    - irssi-dev
+  visiblename: irssi
+  version: 0.8.15
+  origversion: 0.8.15-5ubuntu3
+  status: outdated
   maintainers:
-    - packager@cloudlinux.com
-  licenses:
-    - GPLv2+
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: centos_8
-  subrepo: AppStream
-  srcname: irssi
-  visiblename: irssi
-  version: 1.1.1
-  origversion: 1.1.1-3.el8
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: amazon_1
-  subrepo: main
-  srcname: irssi
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-5.7.amzn1
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: amazon_2
-  srcname: irssi
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-16.amzn2.0.2
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: amazon_2
-  srcname: irssi
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-16.amzn2
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: centos_6
-  subrepo: os
-  srcname: irssi
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-5.el6
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: centos_7
-  subrepo: os
-  srcname: irssi
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-16.el7
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
-  vulnerable: true
-- repo: centos_stream_8
-  subrepo: AppStream
-  srcname: irssi
-  visiblename: irssi
-  version: 1.1.1
-  origversion: 1.1.1-3.el8
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/Communications
+    - net
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
@@ -2603,6 +2540,114 @@
   categories:
     - Applications/Communications
   vulnerable: true
+- repo: amazon_2
+  srcname: irssi
+  visiblename: irssi
+  version: 0.8.15
+  origversion: 0.8.15-16.amzn2.0.2
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: irssi
+  visiblename: irssi
+  version: 1.1.1
+  origversion: 1.1.1-3.el8
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  maintainers:
+    - packager@cloudlinux.com
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
+- repo: amazon_2
+  srcname: irssi
+  visiblename: irssi
+  version: 0.8.15
+  origversion: 0.8.15-16.amzn2
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
+- repo: amazon_1
+  subrepo: main
+  srcname: irssi
+  visiblename: irssi
+  version: 0.8.15
+  origversion: 0.8.15-5.7.amzn1
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
+- repo: centos_6
+  subrepo: os
+  srcname: irssi
+  visiblename: irssi
+  version: 0.8.15
+  origversion: 0.8.15-5.el6
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
+- repo: centos_7
+  subrepo: os
+  srcname: irssi
+  visiblename: irssi
+  version: 0.8.15
+  origversion: 0.8.15-16.el7
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
+- repo: centos_8
+  subrepo: AppStream
+  srcname: irssi
+  visiblename: irssi
+  version: 1.1.1
+  origversion: 1.1.1-3.el8
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: irssi
+  visiblename: irssi
+  version: 1.1.1
+  origversion: 1.1.1-3.el8
+  status: outdated
+  summary: Modular text mode IRC client with Perl scripting
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/Communications
+  vulnerable: true
 - repo: eurolinux_8
   subrepo: appstream
   srcname: irssi
@@ -2616,35 +2661,22 @@
   categories:
     - Applications/Communications
   vulnerable: true
-- repo: gobolinux
-  srcname: Irssi
-  visiblename: Irssi
-  version: 1.2.1
-  origversion: null
-  status: outdated
-  summary: Modular text mode IRC client with Perl scripting
-  licenses:
-    - GNU General Public License (GPL)
-  vulnerable: true
-- repo: mageia_9
-  subrepo: core/updates
+- repo: openeuler_22_03_lts_sp3
   srcname: irssi
   binnames:
     - irssi
     - irssi-devel
-    - irssi-perl
-    - irssi-otr
     - irssi-debuginfo
     - irssi-debugsource
   visiblename: irssi
-  version: 1.4.3
-  origversion: 1.4.3-1.1.mga9
+  version: 1.1.2
+  origversion: 1.1.2-4.oe2203sp3
   status: outdated
-  summary: IRC client
+  summary: A modular char client.
   licenses:
     - GPLv2+
   categories:
-    - Networking/IRC
+    - Unspecified
   vulnerable: true
 - repo: mageia_9
   subrepo: core/release
@@ -2676,23 +2708,6 @@
   visiblename: irssi
   version: 1.1.2
   origversion: 1.1.2-4.oe2203sp1
-  status: outdated
-  summary: A modular char client.
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: openeuler_22_03_lts_sp3
-  srcname: irssi
-  binnames:
-    - irssi
-    - irssi-devel
-    - irssi-debuginfo
-    - irssi-debugsource
-  visiblename: irssi
-  version: 1.1.2
-  origversion: 1.1.2-4.oe2203sp3
   status: outdated
   summary: A modular char client.
   licenses:
@@ -2847,21 +2862,6 @@
     - Networking/IRC
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: irssi
-  binnames:
-    - irssi
-    - irssi-dev
-  visiblename: irssi
-  version: 0.8.15
-  origversion: 0.8.15-5ubuntu3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - net
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: irssi
   binnames:
@@ -2909,21 +2909,6 @@
     - net
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: irssi
-  binnames:
-    - irssi
-    - irssi-dev
-  visiblename: irssi
-  version: 1.0.5
-  origversion: 1.0.5-1ubuntu4
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - net
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic-updates/main
   srcname: irssi
   binnames:
@@ -2932,6 +2917,21 @@
   visiblename: irssi
   version: 1.0.5
   origversion: 1.0.5-1ubuntu4.2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - net
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/main
+  srcname: irssi
+  binnames:
+    - irssi
+    - irssi-dev
+  visiblename: irssi
+  version: 1.0.5
+  origversion: 1.0.5-1ubuntu4
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

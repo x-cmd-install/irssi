@@ -24,16 +24,6 @@ Total: **73,532** lines of code across **541** files in the top 5 languages.
 | Meson | 2,177 | 148 | 153 | 41 |
 | Autoconf | 2,063 | 5 | 1,300 | 116 |
 
-## OpenSSF Scorecard
-
-Overall score: **5.1 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (3/10) — Found 4/12 approved changesets -- score normalized to 3
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-
 ## Source
 
 - **Upstream**: <https://github.com/irssi/irssi>
@@ -58,12 +48,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 1 | 1 | 3 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 1 | 3 | 4 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 4 | 3 | 7 | 0 |
-| last180d | 2026-05-20 | 0 | 0 | 10 | 4 | 10 | 0 |
-| 360d | 2025-11-21 | 0 | 11 | 17 | 6 | 18 | 14 |
-| last720d | 2024-11-26 | 0 | 32 | 21 | 7 | 33 | 90 |
+| 30d | 2026-10-18 | 0 | 0 | 1 | 1 | 3 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 1 | 3 | 4 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 4 | 3 | 7 | 0 |
+| last180d | 2026-05-21 | 0 | 0 | 10 | 4 | 10 | 0 |
+| 360d | 2025-11-22 | 0 | 9 | 17 | 6 | 17 | 14 |
+| last720d | 2024-11-27 | 0 | 32 | 21 | 7 | 33 | 90 |
 
 ## Release assets
 
@@ -78,7 +68,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **212** distros on [repology.org](https://repology.org/project/irssi). **142** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
+Reported by **213** distros on [repology.org](https://repology.org/project/irssi). **143** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,4 +94,4 @@ Install metadata for irssi lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:04:34Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:51:24Z._

@@ -24,16 +24,6 @@ x install irssi
 | Meson | 2,177 | 148 | 153 | 41 |
 | Autoconf | 2,063 | 5 | 1,300 | 116 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **5 / 10**
-
-评分最低的几项:
-
-- **Maintained** (4/10) — 0 commit(s) and 5 issue activity found in the last 90 days -- score normalized to 4
-- **Code-Review** (3/10) — Found 4/12 approved changesets -- score normalized to 3
-- **Packaging** (-1/10) — packaging workflow not detected
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/irssi/irssi>
@@ -48,22 +38,22 @@ x install irssi
 
 ## 流行度
 
-- **Star**: 3,177 · **Fork**: 393 · **开放 issue**: 675 · **贡献者**: 126
+- **Star**: 3,176 · **Fork**: 394 · **开放 issue**: 675 · **贡献者**: 126
 
 ## 累计统计
 
-- **发布数**: 28 · **已合并 PR**: 769 · **开放 PR**: 30 · **已关闭 issue**: 466 · **开放 issue**: 209 · **提交数**: 6931
+- **发布数**: 28 · **已合并 PR**: 769 · **开放 PR**: 31 · **已关闭 issue**: 466 · **开放 issue**: 209 · **提交数**: 6931
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 0 | 1 | 1 | 3 | 0 |
-| last60d | 2026-09-20 | 0 | 0 | 1 | 3 | 4 | 0 |
-| 90d | 2026-08-21 | 0 | 0 | 4 | 3 | 7 | 0 |
-| last180d | 2026-05-23 | 0 | 0 | 10 | 4 | 8 | 0 |
-| 360d | 2025-11-24 | 0 | 9 | 17 | 6 | 16 | 14 |
-| last720d | 2024-11-29 | 0 | 32 | 21 | 7 | 33 | 90 |
+| 30d | 2026-10-21 | 0 | 0 | 2 | 1 | 2 | 0 |
+| last60d | 2026-09-21 | 0 | 0 | 2 | 3 | 4 | 0 |
+| 90d | 2026-08-22 | 0 | 0 | 5 | 3 | 7 | 0 |
+| last180d | 2026-05-24 | 0 | 0 | 11 | 4 | 8 | 0 |
+| 360d | 2025-11-25 | 0 | 9 | 18 | 6 | 16 | 14 |
+| last720d | 2024-11-30 | 0 | 32 | 22 | 7 | 33 | 90 |
 
 ## Release 资产
 
@@ -104,4 +94,4 @@ irssi 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261119.yml` · 2026-11-19T08:36:42Z._
+_数据快照: `data/card/261120.yml` · 2026-11-20T09:45:23Z._

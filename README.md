@@ -24,6 +24,16 @@ Total: **73,532** lines of code across **541** files in the top 5 languages.
 | Meson | 2,177 | 148 | 153 | 41 |
 | Autoconf | 2,063 | 5 | 1,300 | 116 |
 
+## OpenSSF Scorecard
+
+Overall score: **5.1 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (3/10) — Found 4/12 approved changesets -- score normalized to 3
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## Source
 
 - **Upstream**: <https://github.com/irssi/irssi>
@@ -48,12 +58,12 @@ Total: **73,532** lines of code across **541** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 2 | 1 | 1 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 2 | 2 | 3 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 4 | 3 | 7 | 0 |
-| last180d | 2026-05-27 | 0 | 0 | 11 | 4 | 8 | 0 |
-| 360d | 2025-11-28 | 0 | 8 | 18 | 5 | 15 | 14 |
-| last720d | 2024-12-03 | 0 | 32 | 22 | 7 | 33 | 90 |
+| 30d | 2026-10-25 | 0 | 0 | 2 | 1 | 1 | 0 |
+| last60d | 2026-09-25 | 0 | 0 | 2 | 2 | 3 | 0 |
+| 90d | 2026-08-26 | 0 | 0 | 4 | 3 | 7 | 0 |
+| last180d | 2026-05-28 | 0 | 0 | 11 | 4 | 8 | 0 |
+| 360d | 2025-11-29 | 0 | 8 | 18 | 5 | 15 | 14 |
+| last720d | 2024-12-04 | 0 | 32 | 22 | 7 | 33 | 90 |
 
 ## Release assets
 
@@ -94,4 +104,4 @@ Install metadata for irssi lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T08:59:39Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:19:13Z._
